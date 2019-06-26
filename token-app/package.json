@@ -1,18 +1,14 @@
 {
-  "name": "pet-shop",
+  "name": "tpken-app",
   "version": "1.0.0",
-  "description": "",
-  "main": "truffle.js",
-  "directories": {
-    "test": "test"
-  },
+  "main": "index.js",
   "scripts": {
-    "dev": "lite-server",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
   "author": "",
   "license": "ISC",
-  "devDependencies": {
-    "lite-server": "^2.3.0"
-  }
+  "dependencies": {
+    "express": "^4.16.4"
+  },
+  "description": ""
 }
